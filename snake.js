@@ -1,7 +1,7 @@
 import { getInputDirection } from "./input.js";
 
-export let snakeSpeed = 3;
-// export let snakeSpeed = Number(prompt("Enter snake speed:", 5)) || 5;
+//export let snakeSpeed = 3;
+ export let snakeSpeed = Number(prompt("Enter snake speed: حطي سرعة التعبان يا ست وزة", 3)) || 5;
 const snakeBody = [{ x: 11, y: 11 }];
 let newSegments = 0;
 
