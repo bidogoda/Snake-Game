@@ -14,11 +14,7 @@ const gameBoard = document.getElementById("game-board");
 
 function main(currentTime) {
   if (gameOver) {
-    if (
-      confirm(
-        "Game Over You Lost!!! Press Ok to restart.  خسرتي يا فلحوسة دوسي اوكية عيدي تاني",
-      )
-    ) {
+    if (confirm("Game Over You Lost!!! Press Ok to restart.")) {
       // window.location = "/";
       window.location.reload();
     }
